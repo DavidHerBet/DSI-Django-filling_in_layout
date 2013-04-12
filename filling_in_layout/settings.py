@@ -129,6 +129,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'my_app',
     'lettuce.django',
+    'bootstrap_toolkit',
 )
 
 # A sample logging configuration. The only tangible logging
