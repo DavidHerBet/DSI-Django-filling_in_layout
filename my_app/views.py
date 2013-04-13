@@ -12,3 +12,6 @@ def help(request):
 
 def about(request):
 	return render_to_response('about.html')
+
+def contact(request):
+	return render_to_response('contact.html')
