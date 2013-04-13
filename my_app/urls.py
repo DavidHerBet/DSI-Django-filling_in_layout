@@ -6,4 +6,5 @@ urlpatterns = patterns('my_app.views',
    url(r'^help/$', 'help'),
    url(r'^about/$', 'about'),
    url(r'^contact/$', 'contact'),
+   url(r'^signup/$', 'signup'),
 )

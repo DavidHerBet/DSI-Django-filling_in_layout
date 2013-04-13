@@ -15,3 +15,6 @@ def about(request):
 
 def contact(request):
 	return render_to_response('contact.html')
+  
+def signup(request):
+	return render_to_response('signup.html')
