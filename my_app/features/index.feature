@@ -15,3 +15,7 @@ Feature: Probando BDD en Django
     Scenario: About page
         Given I access the url "/my_app/about"
         Then I see the header "About Us"
+
+    Scenario: Contact page
+        Given I access the url "/my_app/contact"
+        Then I see the header "Contact"
